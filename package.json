@@ -1,0 +1,11 @@
+{
+  "name": "harp-example",
+  "version": "0.1.0",
+  "dependencies": {
+    "harp": "0.14.x"
+  },
+  "scripts": {
+    "build": "harp compile src dist",
+    "start": "harp server dist"
+  }
+}
